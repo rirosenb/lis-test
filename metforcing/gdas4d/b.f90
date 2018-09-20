@@ -1,9 +1,9 @@
 function b
-     real :: x
+   real :: x
 
-       integer :: b
+   integer :: b
 
-          b = 2*x / 4
+   b = 2*x / 4
 
    return b
 end function b

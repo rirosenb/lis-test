@@ -1,7 +1,7 @@
 subroutine a
-             integer :: i,j,k
-       real :: y,x
+   integer :: i,j,k
+   real :: y,x
 
-          print*, 'hello'
+   print*, 'hello'
 end subroutine a
 
