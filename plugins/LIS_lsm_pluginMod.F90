@@ -206,6 +206,10 @@ subroutine LIS_lsm_plugin
    use new_lsm_lsmMod,  only : new_lsm_lsm_ini
 #endif
 
+#if ( defined SM_NOAH_4 )
+   use noah4_lsmMod,  only : noah4_lsm_ini
+#endif
+
 #if ( defined SM_LSM_TEMPLATE )
    external template_main
    external template_setup
