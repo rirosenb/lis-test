@@ -202,6 +202,10 @@ subroutine LIS_lsm_plugin
    use summa1_lsmMod,  only : summa1_lsm_ini
 #endif
 
+#if ( defined SM_NOAH_4 )
+   use noah4_lsmMod,  only : noah4_lsm_ini
+#endif
+
 #if ( defined SM_LSM_TEMPLATE )
    external template_main
    external template_setup
