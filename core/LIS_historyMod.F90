@@ -88,6 +88,7 @@ module LIS_historyMod
   public :: LIS_writevar_bin     ! write a variable into a binary file
   public :: LIS_writevar_grib1   ! write a variable into a GRIB-1 file
   public :: LIS_writevar_grib2   ! write a variable into a GRIB-2 file
+  public :: LIS_writevar_grib3   ! write a variable into a GRIB-3 file
   public :: LIS_writevar_netcdf  ! write a variable into a netcdf file
   public :: LIS_writevar_restart ! writes a variable into a restart file
   public :: LIS_readvar_restart  ! reads a variable from a restart file
