@@ -1,8 +1,8 @@
-== LIS 7.4
+== LIS 7.5
+* Support da of snow depth in jim-lsm
 
+== LIS 7.4
 * Support da of soil moisture in jim-lsm
 
-
 == LISF 7.3
-
 * stuff
