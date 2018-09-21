@@ -1,3 +1,6 @@
+== LIS 7.6
+* Support da of snow cover in jim-lsm
+
 == LIS 7.5
 * Support da of snow depth in jim-lsm
 
