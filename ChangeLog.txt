@@ -1,1 +1,8 @@
-This is release 7.3
+== LIS 7.4
+
+* Support da of soil moisture in jim-lsm
+
+
+== LISF 7.3
+
+* stuff
