@@ -6113,6 +6113,7 @@ subroutine writevar_grib2_withstats_real(ftn, ftn_stats, n,   &
 
 !fix centre
 !fix lat/lon
+!fix subCentre
      call grib_set(igrib,'centre',LIS_rc%grib_center_id,iret)
      call LIS_verify(iret,'grib_set:centre failed in LIS_historyMod')
      call grib_set(igrib,'subCentre',LIS_rc%grib_subcenter_id,iret)
