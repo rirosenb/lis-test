@@ -192,6 +192,10 @@ subroutine LIS_lsmda_plugin
 !   use jules50_dasoilm_Mod
 !#endif
 
+#if ( defined SM_UA_LSM )
+   use ua_dasoilm_Mod
+#endif
+
 #if ( defined SM_NOAH_2_7_1 )
 #if ( defined DA_OBS_SNODEP )
 ! Noah-2.7.1 snow depth
