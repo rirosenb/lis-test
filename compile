@@ -9,6 +9,7 @@
 #-------------------------END NOTICE -- DO NOT EDIT-----------------------
 
 # add new option
+# add another option
 while getopts ":hdj:" opt
 do
    case $opt in
