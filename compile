@@ -8,6 +8,7 @@
 # All Rights Reserved.
 #-------------------------END NOTICE -- DO NOT EDIT-----------------------
 
+# add new option
 while getopts ":hdj:" opt
 do
    case $opt in
