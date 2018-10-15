@@ -1,3 +1,7 @@
+== LIS 7.7
+* Add UA soil moisture
+* Add GSWP8 metforcing reader
+
 == LIS 7.6.2
 * Merge LIS 7.5.2
 
