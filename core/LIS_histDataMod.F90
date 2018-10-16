@@ -2136,7 +2136,7 @@ contains
             model_patch=.true.)
     endif
 
-    ! tempy is also adding new units
+    ! add new units
     call ESMF_ConfigFindLabel(modelSpecConfig,"Snowcover:",rc=rc)
     call get_moc_attributes(modelSpecConfig, LIS_histData(n)%head_lsm_list, &
          "SnowCover",&
